@@ -4,7 +4,7 @@ import { colors } from "../../styles/colors";
 import { 
     StyledSubtitle,
     StyledTitle, TitleContainer 
-} from "./TitleProfile.styles.";
+} from "./TitleProfile.styles";
 
 const TitleProfile: React.FC<ITitleProps> = (props) => {
     const {  heroName } = props;

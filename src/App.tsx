@@ -8,6 +8,7 @@ import { Router } from './Router';
 import swal from 'sweetalert';
 import { config } from './util/config';
 import Loading from './components/Loading/Loading';
+import { AppContainer, Main } from './components/AppContainer/AppContainer.styles';
 
 
 
@@ -19,7 +20,11 @@ function App() {
    <Provider store={storeWrapper}>
         <BrowserRouter>
           <Loading />
-          <Router />
+          <AppContainer>
+            <Main>
+              <Router />
+            </Main>
+          </AppContainer>
         </BrowserRouter>
    </Provider>
   )

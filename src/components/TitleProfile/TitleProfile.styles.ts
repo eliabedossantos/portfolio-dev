@@ -15,7 +15,6 @@ export const TitleContainer = styled.div`
 
 export const StyledTitle = styled.h3`
     font-size: 1.5rem;
-    font-family: 'Epilogue', sans-serif;
     font-weight: 700;
     color: ${colors.primaryLight2};
     margin-bottom: 0rem;
@@ -24,14 +23,12 @@ export const StyledTitle = styled.h3`
         content: ' / ';
         color: ${colors.secondary};
         font-size: 1.5rem;
-        font-family: 'Epilogue', sans-serif;
         font-weight: 700;
     }
 `;
 
 export const StyledSubtitle = styled.h4`
     font-size: 1.5rem;
-    font-family: 'Epilogue', sans-serif;
     font-weight: 300;
     color: ${colors.gray};
     margin-bottom: 0rem;

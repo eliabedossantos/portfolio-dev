@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadingContainer } from "./Loading.styles.";
+import { LoadingContainer } from "./Loading.styles";
 
 import loadingAnimation from "../../assets/lotties/loading.json";
 import { useSelector } from "react-redux";

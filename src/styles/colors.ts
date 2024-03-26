@@ -1,12 +1,29 @@
 export const colors: any = {
   // colors default
-  primary: '#00113D',
-  primaryLight2: '#081B4E',
-  primaryLight: '#213770',
-  primaryExtraLight: '#747d94',
-  modalBlack: 'hsla(140, 20%, 3%, 0.9)',
-  secondary: '#f21a05',
-  secondaryLight: '#f43724',
+  primary: {
+    darkBlue: "#01080E",
+    midnightBlue: "#011627",
+    deepSea: "#011221",
+  },
+  secondary: {
+    slateGray: "#607B96",
+    teal: "#3C9D93",
+    royalBlue: "#4D5BCE",
+    white: "#FFFFFF"
+  },
+  lines: "#1E2D3D",
+  accents: {
+    amber: "#FEA55F",
+    emerald: "#43D9AD",
+    coral: "#E99287",
+    lavender: "#C98BDF"
+  },
+  gradients:{
+    blue: ["#4D5BCE", "#43D9AD"],
+    green: ["#43D9AD", "#4D5BCE"],
+    red: ["#E99287", "#FEA55F"],
+    purple: ["#C98BDF", "#FEA55F"]
+  },
 
   //Text
   textFont: '#2f2e41',
